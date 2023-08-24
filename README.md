@@ -61,3 +61,13 @@ GymPass style app api.
 # Adicionar fastify para criar nosso servidor.
   npm install fastify
 ```
+
+```sh
+# Adicionar dotenv para carregar as variáveis de ambiente para o Node.js e assim temos acesso a elas.
+  npm install dotenv
+```
+
+```sh
+# Adicionar zod para fazer validações.
+  npm install zod
+```
