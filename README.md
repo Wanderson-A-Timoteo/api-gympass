@@ -31,9 +31,33 @@ GymPass style app api.
 - [ ] Todas listas de dados precisam estar paginadas com 20 itens por página;
 - [ ] O usuário deve ser identificado por um JWT (JSON Web Token);
 
-## Dependências de Desenvolvimento
+## Configurações do projeto
+
+### Dependências de Desenvolvimento
 
 ```sh
-### Adicionar typescript e seus tipos, tsx para converter o código ts para js automaticamente e rodar o código, tsup biblioteca para fazer o build da aplicação.
-npm i typescript @types/node tsx tsup -D
+# Adicionar typescript e seus tipos.
+  npm install typescript @types/node tsx tsup -D
+```
+
+```sh
+# Adicionar tsx para converter o código ts para js automaticamente e rodar o código em desenvolvimento.
+  npm install tsx -D
+```
+
+```sh
+# Adicionar tsup biblioteca para fazer o build da aplicação convertendo de ts para js para produção.
+  npm install tsup -D
+```
+
+## Dependências de produção
+
+```sh
+# Adicionar tsc --init para criar o arquivo de configuração typescript.
+  npx tsc --init
+```
+
+```sh
+# Adicionar fastify para criar nosso servidor.
+  npm install fastify
 ```
